@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+vault = "4gkkXfvTobwNiK9SJysDFhT56f3cp1zUWuSZjiQ2YdY4"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "cargo test"
